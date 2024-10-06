@@ -23,6 +23,10 @@ DoPlayerMovement::
 	ld c, a
 	and D_PAD
 	ret nz
+; Enabling braking in cycling road
+	ld a, c
+    and A_BUTTON | B_BUTTON
+    ret nz
 
 	ld a, c
 	or D_DOWN
