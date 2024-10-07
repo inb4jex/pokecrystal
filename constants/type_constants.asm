@@ -15,7 +15,6 @@ DEF PHYSICAL EQU const_value
 	const ROCK
 	const BIRD
 	const BUG
-	;const GHOST
 	const STEEL
 
 DEF UNUSED_TYPES EQU const_value
