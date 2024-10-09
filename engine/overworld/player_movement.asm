@@ -822,6 +822,7 @@ ENDM
 	ld a, PLAYER_NORMAL
 	ld [wPlayerState], a
 	call UpdatePlayerSprite
+	pop bc
 	ret
 	
 CheckStandingOnIce::
